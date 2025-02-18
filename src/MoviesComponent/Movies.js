@@ -56,6 +56,7 @@ const MovieCard = ({
               textShadow: isHovered
                 ? "0 0 10px rgba(255, 255, 255, 0.8)"
                 : "none",
+              fontSize: isSmallScreen ? "26px" : "32px",
             }}
           >
             {title}

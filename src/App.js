@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import MoviesList from "./MoviesComponent/MoviesList";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={styles.app}>
+      <h1 style={styles.header}>Movie List</h1>
+      <MoviesList />
     </div>
   );
 }
+const styles = {
+  app: {
+    textAlign: "center",
+    fontFamily: "Arial, sans-serif",
+    backgroundColor: "#1a1a1a",
+    color: "white",
+    minHeight: "100vh",
+    padding: "20px",
+  },
+  header: {
+    fontSize: "28px",
+    fontWeight: "bold",
+    margin: "20px 0",
+    color: "#f5c518",
+  },
+};
 
 export default App;

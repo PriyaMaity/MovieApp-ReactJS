@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "releaseYear": 2010,
+    "duration": 148,
+    "genre": ["Action", "Sci-Fi", "Thriller"],
+    "description": "A thief who enters the dreams of others to steal secrets is tasked with planting an idea into a target's subconscious.",
+    "imageUrl": "./Images/inception1.jpg",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 2,
+    "title": "The Dark Knight",
+    "releaseYear": 2008,
+    "duration": 152,
+    "genre": ["Action", "Crime", "Drama"],
+    "description": "Batman sets out to dismantle the remaining criminal organizations that plague Gotham, but a new threat known as the Joker emerges.",
+    "imageUrl": "./Images/darknight1.jpg",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 3,
+    "title": "Interstellar",
+    "releaseYear": 2014,
+    "duration": 169,
+    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "description": "A team of explorers travels through a wormhole in space to ensure humanity’s survival.",
+    "imageUrl": "./Images/interstellar.jpg",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 4,
+    "title": "Avengers: Endgame",
+    "releaseYear": 2019,
+    "duration": 181,
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "description": "After the devastating events of Infinity War, the remaining Avengers assemble once more in order to reverse Thanos's actions.",
+    "imageUrl": "./Images/Avengers-Endgame.png",
+    "director": "Anthony Russo, Joe Russo"
+  },
+  {
+    "id": 5,
+    "title": "The Matrix",
+    "releaseYear": 1999,
+    "duration": 136,
+    "genre": ["Action", "Sci-Fi"],
+    "description": "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
+    "imageUrl": "./Images/matrix1.jpg",
+    "director": "Lana Wachowski, Lilly Wachowski"
+  },
+  {
+    "id": 6,
+    "title": "Parasite",
+    "releaseYear": 2019,
+    "duration": 132,
+    "genre": ["Drama", "Thriller"],
+    "description": "A poor family schemes to become employed by a wealthy family and infiltrates their household by posing as unrelated, highly qualified individuals.",
+    "imageUrl": "./Images/parasite.jfif",
+    "director": "Bong Joon-ho"
+  },
+  {
+    "id": 7,
+    "title": "Gladiator",
+    "releaseYear": 2000,
+    "duration": 155,
+    "genre": ["Action", "Drama"],
+    "description": "A former Roman General seeks revenge against the corrupt emperor who murdered his family and sent him into slavery.",
+    "imageUrl": "./Images/gladiator.webp",
+    "director": "Ridley Scott"
+  },
+  {
+    "id": 8,
+    "title": "The Shawshank Redemption",
+    "releaseYear": 1994,
+    "duration": 142,
+    "genre": ["Drama"],
+    "description": "Two imprisoned men bond over several years, finding solace and eventual redemption through acts of common decency.",
+    "imageUrl": "./Images/theshawshank.webp",
+    "director": "Frank Darabont"
+  },
+  {
+    "id": 9,
+    "title": "Titanic",
+    "releaseYear": 1997,
+    "duration": 195,
+    "genre": ["Drama", "Romance"],
+    "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the ill-fated R.M.S. Titanic.",
+    "imageUrl": "./Images/titanic1.jfif",
+    "director": "James Cameron"
+  },
+  {
+    "id": 10,
+    "title": "Joker",
+    "releaseYear": 2019,
+    "duration": 122,
+    "genre": ["Crime", "Drama", "Thriller"],
+    "description": "A mentally troubled comedian embarks on a downward spiral of revolution and bloody crime, creating his alter ego: The Joker.",
+    "imageUrl": "./Images/joker.webp",
+    "director": "Todd Phillips"
+  },
+  {
+    "id": 11,
+    "title": "Forrest Gump",
+    "releaseYear": 1994,
+    "duration": 142,
+    "genre": ["Drama", "Romance"],
+    "description": "The story of Forrest Gump, a man with a low IQ who accomplishes great things in life and inspires everyone he meets.",
+    "imageUrl": "./Images/forrestgump.jpg",
+    "director": "Robert Zemeckis"
+  },
+  {
+    "id": 12,
+    "title": "Fight Club",
+    "releaseYear": 1999,
+    "duration": 139,
+    "genre": ["Drama"],
+    "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into something much bigger.",
+    "imageUrl": "./Images/fightclub.jfif",
+    "director": "David Fincher"
+  }
+]

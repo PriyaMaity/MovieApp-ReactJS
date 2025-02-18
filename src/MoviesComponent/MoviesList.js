@@ -21,9 +21,16 @@ const MoviesList = () => {
 
 const styles = {
   container: {
-    display: "block",
+    display: "flex",
+    flexWrap: "wrap",
+    justifyContent: "center",
     padding: "20px",
     backgroundColor: "#121212",
+  },
+  "@media (max-width: 768px)": {
+    container: {
+      padding: "10px",
+    },
   },
 };
 

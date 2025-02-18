@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const MovieCard = ({
   title,
@@ -10,11 +10,25 @@ const MovieCard = ({
   director,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    handleResize();
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <div
       style={{
         ...styles.card,
+        flexDirection: isSmallScreen ? "column" : "row",
         transform: isHovered ? "scale(1.05)" : "scale(1)",
         boxShadow: isHovered
           ? "0 15px 30px rgba(0, 0, 0, 0.6)"
@@ -29,6 +43,8 @@ const MovieCard = ({
         style={{
           ...styles.backgroundImage,
           filter: isHovered ? "brightness(1.2)" : "brightness(1)",
+          width: isSmallScreen ? "100%" : "65%",
+          height: isSmallScreen ? "500px" : "350px",
         }}
       />
       <div style={styles.overlay}></div>
@@ -79,13 +95,10 @@ const styles = {
     boxShadow: "0 10px 20px rgba(0, 0, 0, 0.5)",
     transition: "transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out",
     cursor: "pointer",
-  },
-  cardHover: {
-    transform: "scale(1.05)",
+    display: "flex",
+    alignItems: "center",
   },
   backgroundImage: {
-    width: "65%",
-    height: "350px",
     objectFit: "contain",
     marginLeft: "50%",
     transition: "filter 0.3s ease-in-out",

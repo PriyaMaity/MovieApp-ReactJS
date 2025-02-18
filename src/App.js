@@ -24,6 +24,14 @@ const styles = {
     margin: "20px 0",
     color: "#f5c518",
   },
+  "@media (max-width: 768px)": {
+    app: {
+      padding: "10px",
+    },
+    header: {
+      fontSize: "24px",
+    },
+  },
 };
 
 export default App;
